@@ -2,14 +2,14 @@
 
 This repository implements SLICE, a causal discovery method for two categorical variables when unobserved common causes may exist.
 
-Given paired observations of two variables, CLOUD compares four causal explanations: 
+Given paired observations of two discrete variables, SLICE compares four causal explanations: 
 
 - `X -> Y`: `X` causes `Y`
 - `X <- Y`: `Y` causes `X`
 - `X ⫫ Y`: `X` and `Y` are independent
 - `X <- C -> Y`: unobserved common causes influence both `X` and `Y`
 
-SLICE selects the explanation with the shortest codelength based on the MDL principle. The method supports discrete variable.
+SLICE selects the explanation with the shortest codelength based on the MDL principle.
 
 
 ## Citation
